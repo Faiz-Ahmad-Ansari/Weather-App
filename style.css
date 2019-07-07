@@ -9,8 +9,8 @@ h1 {
     margin: 0px;
 }
   .button1 {
-    background-color: white; 
-    color: black; 
+    background-color:grey; 
+    color: white; 
     border: 2px solid white;
     cursor: pointer;
     padding: 10px;
@@ -37,13 +37,11 @@ h1 {
       background-color: yellow;
   }
   .inputDiv{
-      
-      background-color: crimson;
-      
+      background-color: lightgoldenrodyellow;
   }
   label{
       margin: 4px;
-      color: white;
+      color: gray  ;
       font-weight: bold;
       
   }
