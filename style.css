@@ -11,7 +11,7 @@ h1 {
   .button1 {
     background-color: white; 
     color: black; 
-    border: 2px solid yellow;
+    border: 2px solid white;
     cursor: pointer;
     padding: 10px;
     border-radius: 5px; 
@@ -49,4 +49,8 @@ h1 {
   }
   #cityInput{
       width: 35%;
+  }
+  .sign {
+      text-align: center;
+      color: grey
   }

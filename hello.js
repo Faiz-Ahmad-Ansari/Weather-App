@@ -52,9 +52,9 @@ function renderHTML(data) {
         var imgElement = document.createElement("IMG");
         var icon = data.weather[0].icon;
         imgElement.setAttribute('src','https://openweathermap.org/img/wn/'+icon+'@2x.png');
-        imgElement.setAttribute('width','300');
-        imgElement.setAttribute('height','250');
-        document.body.appendChild(imgElement);
+        imgElement.setAttribute('width','200');
+        imgElement.setAttribute('height','200');
+        document.getElementById("weatherContainer").appendChild(imgElement);
     }
 
     }
