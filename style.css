@@ -37,13 +37,13 @@ h1 {
       background-color: yellow;
   }
   .inputDiv{
-      background-color: lightgoldenrodyellow;
-  }
+      background-image: linear-gradient(to right, grey,skyblue,rgb(228, 187, 100),lightblue,lightgrey);
+      border: 1px solid grey;
+    }
   label{
       margin: 4px;
-      color: gray  ;
+      color: white  ;
       font-weight: bold;
-      
   }
   #cityInput{
       width: 35%;
